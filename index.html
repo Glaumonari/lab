@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="js.js"></script>
+    <title></title>
+  </head>
+  <body>
+
+<div id="topo">
+  <h1>Laboratória Game</h1>
+  </div>
+
+<h2>Quiz</h2>
+
+<form class="" name="game" id="game">
+    <div>
+        <label for="nome">Digite seu nome: </label>
+        <input type="text" name="nome" value="">
+    </div>
+    <div>
+        <label for="pergunta1">Qual a capital do Brasil? </label>
+        <input type="text" name="pergunta1" value="">
+    </div>
+    <div>
+        <label for="pergunta2">Qual a capital de São Paulo? </label>
+        <input type="text" name="pergunta2" value="">
+    </div>
+    <div>
+        <label for="pergunta3">Qual a capital da Bahia? </label>
+        <input type="text" name="pergunta3" value="">
+    </div>
+    <button type="button" name="button" onclick="envia()">Enviar</button>
+</form>
+
+<div class="bemvindo">
+    <h2 id="mensagem"></h2>
+
+</div>
+  <div id="certo">
+    <h3>Certo</h3>
+    <p id="um-certo"></p>
+    <p id="dois-certo"></p>
+    <p id="tres-certo"></p>
+  </div>
+  <div id="errado">
+    <h3>Errado</h3>
+    <p id="um-errado"></p>
+    <p id="dois-errado"></p>
+    <p id="tres-errado"></p>
+  </div>
+
+  </body>
+</html>
